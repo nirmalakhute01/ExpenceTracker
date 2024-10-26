@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sens-serif;
+    animation: animate 4s linear infinite;
+    margin: 0;
+    padding:20px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    background-image: url('https://img.lovepik.com/bg/20231221/HD-Black-and-White-Abstract-Wallpapers-3D-Backgrounds-for-Mobile_2664989_wh860.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+    
+ input{
+    background-color: white;
+   
+}
+button, option {
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+
+}
+#expense-category {
+    background-color: transparent;
+    color: white
+}
+.container {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(215, 42, 42, 0.962);
+    max-width: 500px;
+    width: 500%;
+    
+
+}
+ h1 { 
+    
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+.input-group {
+    margin-bottom: 15px;
+    color: #f7f2f2;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f7f2f2;
+}
+
+
+.input-group input,
+.input-group select {
+    width: calc(100% - 10px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+}
+
+.button-group button:hover,
+.clear-button-group button:hover {
+    background-color: #FF1493;
+}
+
+.table-container {
+    text-align: center;
+   background-color:rgba(0, 0, 0, 0.737) ;
+   margin-bottom: 15px;
+   margin-right: 55px;
+   border-radius: 5%;
+}
+
+ 
+
+
+
